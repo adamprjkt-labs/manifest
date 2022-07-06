@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remote -->
+ <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+
+ <!-- device tree -->
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="hlok" revision="evolution" clone-depth="1" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="hlok" revesion="twelve" clone-depth="1" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="hlok" revision="twelve-12.x" clone-depth="1" />
+ 
+<!-- toolchain-clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+</manifest>
