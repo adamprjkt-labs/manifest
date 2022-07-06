@@ -5,6 +5,9 @@
  <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
+ <remove-project name="system_bt"
+ <project path="system/bt" name="system_bt" remote="hlok" revision="twelve" />
+
  <!-- device tree -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="hlok" revision="evolution" clone-depth="1" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="hlok" revesion="twelve" clone-depth="1" />
