@@ -3,15 +3,9 @@
 
 <!-- Remote -->
  <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
 
  <!-- device tree -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="hlok" revision="wip" clone-depth="1" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revesion="twelve" clone-depth="1" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="hlok" revision="twelve-12.x" clone-depth="1" />
+ <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="hlok" revision="stag" clone-depth="1" />
+ <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="hlok" revesion="stag" clone-depth="1" />
  
-<!-- toolchain-clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
 </manifest>
