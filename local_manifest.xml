@@ -3,11 +3,12 @@
 
  <!-- Remote -->
  <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
+ <remote name="frstprjkt" fetch="https://github.com/frstprjkt" /> 
  <remote name="chimeoss" fetch="https://gitlab.com/chimeoss" />
 
  <!-- device tree -->
  <project path="device/xiaomi/chime" name="ximi_chime" remote="hlok" revision="blaze.13" clone-depth="1" />
  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="chimeoss" revesion="lineage-20.0" clone-depth="1" />
- <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="hlok" revision="thirteen" clone-depth="1" />
+ <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="frstprjkt" revision="thirteen" clone-depth="1" />
  
 </manifest>
