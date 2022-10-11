@@ -13,6 +13,9 @@
  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="frstprjkt" revision="thirteen" clone-depth="1" />
  
  <!-- sepolicy --> 
- <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-20.0-legacy-um"
+ <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-20.0-legacy-um" clone-depth="1" />
+
+ <!-- hardware -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20" clone-depth="1" />
 
 </manifest>
