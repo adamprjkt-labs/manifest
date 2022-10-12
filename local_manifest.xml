@@ -18,7 +18,4 @@
  <!-- hardware -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20" clone-depth="1" />
 
- <!-- remove -->
- <remove-project="hardware/google/pixel/kernel_headers" /> 
-
 </manifest>
