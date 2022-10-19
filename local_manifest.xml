@@ -5,10 +5,14 @@
  <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
  <remote name="frst" fetch="https://gitlab.com/frstprjkt" />
  <remote name="fgrk" fetch="https://github.com/frstprjkt" />
+ <remote name="evox" fetch="https://github.com/Evolution-X" />
 
  <!-- device tree -->
  <project path="device/xiaomi/chime" name="ximi_chime" remote="hlok" revision="blaze.13" clone-depth="1" />
  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="frst" revision="thirteen" clone-depth="1" />
  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="fgrk" revision="tiramisu" clone-depth="1" />
+
+ <!-- sepolicy --> 
+ <project path="vendor/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="evox" revision="tiramisu" clone-depth="1" />
 
 </manifest>
