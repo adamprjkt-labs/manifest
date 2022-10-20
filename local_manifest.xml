@@ -13,6 +13,6 @@
  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="fgrk" revision="thirteen" clone-depth="1" />
 
  <!-- sepolicy --> 
- <project path="vendor/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="evox" revision="tiramisu" clone-depth="1" />
+ <project path="device/vendor/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="evox" revision="tiramisu" clone-depth="1" />
 
 </manifest>
