@@ -5,7 +5,7 @@
  <remote name="hlok" fetch="https://github.com/adamprjkt-labs" />
 
  <!-- device tree -->
- <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="hlok" revision="stag" clone-depth="1" />
+ <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="havoc.11" revision="stag" clone-depth="1" />
  <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="hlok" revesion="stag" clone-depth="1" />
  
 </manifest>
